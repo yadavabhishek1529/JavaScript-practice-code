@@ -1,0 +1,22 @@
+/* div{
+    height:100px;
+    width: 100px;
+    background-color: aquamarine;
+    border : 2px solid black;
+    text-align: center;
+}  
+.para {
+    color:red;
+}
+.newClass {
+    background-color: green;
+} */
+
+.dark {
+    background-color: black;
+    color : white;
+}
+.light {
+    background-color: white;
+    color: black;
+}
