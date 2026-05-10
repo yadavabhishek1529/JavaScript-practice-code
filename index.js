@@ -1,4 +1,4 @@
-/*const Employee = {
+/* const Employee = {
     fullName : "Abhishek Yadav",
     Dept : "IT",
     Age : 21,
@@ -7,7 +7,7 @@
 };
 
 Employee["fullName"] = "Rahul Sharma";
-console.log(Employee["fullName"]);*/
+console.log(Employee["fullName"]); */
 
 // creating insta profile object :-
 /*const Profile = {
@@ -937,7 +937,7 @@ getAllData();
 })();
 */
 
-
+/*
     //Fetch API(Application programming interface)
 const URL = "https://api.thecatapi.com/v1/images/search";
 let getPara = document.querySelector("#fact");
@@ -952,3 +952,4 @@ const getFacts = async () =>{
 };
 
 getBtn.addEventListener("click",getFacts);
+*/
