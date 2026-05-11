@@ -41,10 +41,60 @@ for(let key in student){
 }    */
 // Q. : Create a game where you can start with any random game number. 
 // Ask the user to keep guessing the game number until the user enters correct value.   
-let number = 9;
+/* let number = 9;
 guessing_num = prompt("Guess a number");
 
 while(number != guessing_num){
     guessing_num = prompt("you entered a wrong number. Guess again.");
 }
 console.log("Congratulations, you guess a right number.");
+*/
+
+//Again practicing
+
+/*
+let str = "Abhishek yadav"
+
+for(let val of str){
+    console.log("val=",val);
+}*/
+
+/*
+let size = 0;
+let str = "Hello my brother Abhi!";
+
+for(let val of str){
+    console.log("val=",val);
+    size++;
+}
+console.log("size of our string value is :",size);
+*/
+/*
+let student = {
+    name : "Abhishek yadav",
+    age : 21,
+    isPass : true
+}
+
+for (let key in student){
+    console.log(key ,":", student[key]);
+}
+*/
+/*
+for(let i=0; i<=100; i++){
+    if(i%2==0){
+        console.log("Number is even",i)
+    }
+}
+*/
+/*
+let number = 24
+let guessNum = prompt("Guess a number between 1 to 100");
+
+while(guessNum != number){
+    guessNum = prompt("You guessed a wrong number please guess it again!!");
+}
+
+alert("Congratulations you entered a right number!!");
+*/
+

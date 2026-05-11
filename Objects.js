@@ -1,4 +1,4 @@
-const Employee = {
+/*const Employee = {
     fullName : "Abhishek Yadav",
     Dept : "IT",
     Age : 21,
@@ -8,7 +8,7 @@ const Employee = {
 
 Employee["fullName"] = "Rahul Sharma";
 console.log(Employee["fullName"]); 
-
+*/
 // creating insta profile object :-
 /*const Profile = {
     username : "raoabhi_007",

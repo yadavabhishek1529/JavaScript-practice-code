@@ -157,7 +157,7 @@ getWeatherData();
 
 
     //EX :
-function getData(dataId) {
+/* function getData(dataId) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             console.log("Data ", dataId);
@@ -195,3 +195,4 @@ getAllData();
     console.log("getting data 5...");
     await getData(5);
 })();
+*/

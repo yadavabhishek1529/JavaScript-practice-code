@@ -1,5 +1,5 @@
 // Arithmetic operators 
-let num1 = 5;
+/* let num1 = 5;
 let num2 = "5";
 
 console.log("num1 =", num1 , "num2 =", num2);
@@ -9,7 +9,7 @@ console.log("num1*num2 = ", num1*num2);
 console.log("num1/num2 = ", num1/num2);
 console.log("num1%num2 = ", num1%num2);   //modulus
 console.log("num1**num2 = ", num1**num2); //exponentiation
-
+*/
 //Unary operator :-
 /*console.log("++num1=", ++num1); //pre increment
 console.log("num1=",num1);

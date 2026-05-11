@@ -1,5 +1,5 @@
 //Fetch API(Application programming interface)
-const URL = "https://api.thecatapi.com/v1/images/search";
+/* const URL = "https://api.thecatapi.com/v1/images/search";
 let getPara = document.querySelector("#fact");
 let getBtn = document.querySelector("#btn");
 
@@ -12,3 +12,4 @@ const getFacts = async () =>{
 };
 
 getBtn.addEventListener("click",getFacts);
+*/

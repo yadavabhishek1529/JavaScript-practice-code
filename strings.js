@@ -14,10 +14,11 @@ let specialString = `this is a template literal.`;
 console.log(specialString);
 */
 //Ex of Template literals :-
-let obj = {
+/* let obj = {
     name : "pen",
     price : 10,
 };
 
 let output = `The cost of ${obj.name} is ${obj.price} rupees.`;
 console.log(output);   
+*/

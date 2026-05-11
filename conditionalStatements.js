@@ -105,7 +105,7 @@ else if(marks<=49 && marks>=0){
     } */
 
 //Switch Operation
-const expr = 'banana';
+/* const expr = 'banana';
 switch (expr) {
     case 'orange': 
         console.log('oranges are 80 rupees/kg');
@@ -125,4 +125,4 @@ switch (expr) {
     default:
         console.log("you entered a wrong expressions! please try again ")
         break;
-} 
+} */
