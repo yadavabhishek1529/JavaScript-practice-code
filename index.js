@@ -82,6 +82,14 @@ if(age < 18) {
     console.log("You Cannot Vote....!");
 }*/
 
+/*let num = 13;
+if(num%2===0){
+    console.log(num, "is an even number");
+}
+else{
+    console.log(num, "is an odd number");
+}*/
+
 /*let mode="dark"
 let color;
 
@@ -93,13 +101,6 @@ if(mode =="light"){
 }
 console.log(color); */
 
-/*let num = 13;
-if(num%2===0){
-    console.log(num, "is an even number");
-}
-else{
-    console.log(num, "is an odd number");
-}*/
 /*
 let mode= "dark";
 let color;
