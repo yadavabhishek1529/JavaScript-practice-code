@@ -38,12 +38,6 @@ console.log(num1);
 num1**= 2;
 console.log(num1);*/
 
-//Comparison operator 
-/*console.log("num1 != num2", num1 != num2);
-console.log("num1 !== num2", num1 !== num2);
-console.log("num1 === num2", num1 === num2);
-console.log("num1 <= num2", num1 <= num2);
-console.log("num1 >= num2", num1 >= num2);*/
 
 //Logical operators
 /*let num1 = 5;
@@ -51,3 +45,11 @@ let num2 = 5;
 console.log(num1>=num2 && num1!=num2);
 console.log(num1>=num2 || num1==num2);
 console.log(![num1>=num2]);*/
+
+//Comparison operator 
+/*console.log("num1 != num2", num1 != num2);
+console.log("num1 !== num2", num1 !== num2);
+console.log("num1 === num2", num1 === num2);
+console.log("num1 <= num2", num1 <= num2);
+console.log("num1 >= num2", num1 >= num2);*/
+
