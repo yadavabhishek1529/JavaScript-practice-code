@@ -49,6 +49,29 @@ console.log(result);*/
 
 //(Alert) = one time pop-up : used for the display anything like a note through the pop-up message. 
 
+//Switch Operation
+/* const expr = 'banana';
+switch (expr) {
+    case 'orange': 
+        console.log('oranges are 80 rupees/kg');
+        break;
+     
+    case 'banana': 
+        console.log("bananas are 50 rupees/kg!");
+        break;
+    
+    case 'mango': 
+        console.log("mangos are 120 rupees/kg");
+        break;
+    
+    case 'grapes': 
+        console.log("grapes are 100 rupees/kg");
+        break;
+    default:
+        console.log("you entered a wrong expressions! please try again ")
+        break;
+}*/
+
 //Q. Get user to input a number using prompt("Enter a number:"). check if the number is a multiple of 5 or not.
 /* let number = prompt("Enter a Number :");
 if(number %5 === 0){
@@ -104,25 +127,3 @@ else if(marks<=49 && marks>=0){
         console.log("You entered a wrong number");
     } */
 
-//Switch Operation
-/* const expr = 'banana';
-switch (expr) {
-    case 'orange': 
-        console.log('oranges are 80 rupees/kg');
-        break;
-     
-    case 'banana': 
-        console.log("bananas are 50 rupees/kg!");
-        break;
-    
-    case 'mango': 
-        console.log("mangos are 120 rupees/kg");
-        break;
-    
-    case 'grapes': 
-        console.log("grapes are 100 rupees/kg");
-        break;
-    default:
-        console.log("you entered a wrong expressions! please try again ")
-        break;
-} */
