@@ -14,7 +14,7 @@ const student = {
 
 console.log(student["name"]);
 */
-
+/*
 Employee["fullName"] = "Rahul Sharma";
 console.log(Employee["fullName"]); 
  */
