@@ -5,6 +5,15 @@
     salary : 45000,
     isWork : true,
 };
+/*
+const student = {
+    name: "Abhi yadav",
+    age : 21,
+    virgin : false
+}
+
+console.log(student["name"]);
+*/
 
 Employee["fullName"] = "Rahul Sharma";
 console.log(Employee["fullName"]); 
@@ -20,12 +29,3 @@ console.log(Employee["fullName"]);
     occupation : "Enterpreneur",
     Bio : "God knows what you need, Just trust on him.| Rao_sahab | JecrcU'26",
 };*/
-/*
-const student = {
-    name: "Abhi yadav",
-    age : 21,
-    virgin : false
-}
-
-console.log(student["name"]);
-*/
