@@ -98,18 +98,3 @@ while(guessNum != number){
 alert("Congratulations you entered a right number!!");
 */
 
-/* let cities = ["Jaipur", "Tonk", "Ajmer", "Alwar", "Udaipur"]
-for(let val of cities){
-    console.log(val);
-} */
-
-/* let marks = [87, 74, 81, 93, 79];
-let sum = 0;
-
-for(let val of marks){
-    sum += val;
-} 
-
-avgMarks = sum/marks.length ;
-console.log(avgMarks); */
-
