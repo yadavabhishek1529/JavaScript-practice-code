@@ -57,10 +57,15 @@ avgMarks = sum/marks.length ;
 console.log(`average Marks of a class : ${avgMarks}`); 
 */
 
-let itemsPrice = [250, 540, 348, 462, 500];
+/* let itemsPrice = [250, 540, 348, 462, 500];
 
 for (let val of itemsPrice){
     let offerPrice = val/10;
     let finalPrice = val - offerPrice;
     console.log(`final price is : ${finalPrice}`);
-}
+} */
+
+let cities = ["delhi","gurgaon","pune","banglore","hyderabad","noida"];
+
+cities.push("lucknow")
+console.log(cities)
