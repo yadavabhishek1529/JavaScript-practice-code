@@ -40,3 +40,27 @@ for(let i=0; i<items.length;i++){
     items[i] -= offer;
 }
 console.log(items);  */
+
+/* let cities = ["Jaipur", "Tonk", "Ajmer", "Alwar", "Udaipur"]
+for(let val of cities){
+    console.log(val);
+} */
+
+/* let marks = [87, 74, 81, 93, 79];
+let sum = 0;
+
+for(let val of marks){
+    sum += val;
+} 
+
+avgMarks = sum/marks.length ;
+console.log(`average Marks of a class : ${avgMarks}`); 
+*/
+
+let itemsPrice = [250, 540, 348, 462, 500];
+
+for (let val of itemsPrice){
+    let offerPrice = val/10;
+    let finalPrice = val - offerPrice;
+    console.log(`final price is : ${finalPrice}`);
+}
