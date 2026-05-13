@@ -65,7 +65,8 @@ for (let val of itemsPrice){
     console.log(`final price is : ${finalPrice}`);
 } */
 
-let cities = ["delhi","gurgaon","pune","banglore","hyderabad","noida"];
+/* let cities = ["delhi","gurgaon","pune","banglore","hyderabad","noida"];
 
 cities.push("lucknow")
-console.log(cities)
+console.log(cities);
+*/
