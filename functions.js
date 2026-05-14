@@ -79,6 +79,20 @@ countVowels("abhishek Yadav");   */
 numbers.forEach((val) =>{
     console.log(`value of square is: ${val*val}`);
 });  */
+/*
+let arr = ["pune","delhi","jaipur","banglore","gurgaon"]
+
+arr.forEach(function printValue(val){
+    console.log(val);
+})
+*/
+/*
+let  nums = [8, 51, 4, 9]
+
+nums.forEach((nums) => {
+    console.log(nums*nums)
+    console.log(nums**2)
+}) */
 
     //
 /*let arr = [1,2,3,4,5,6,7,8];
@@ -121,3 +135,4 @@ x.forEach((i) => {
     console.log("Hii");
 })
 */
+
