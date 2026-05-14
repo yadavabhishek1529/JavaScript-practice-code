@@ -94,6 +94,15 @@ nums.forEach((nums) => {
     console.log(nums**2)
 }) */
 
+/*let nums = [3, 6, 12, 4]
+
+let newArr = nums.map(val => {
+    return val**2;
+}) 
+
+console.log(newArr);
+*/
+
     //
 /*let arr = [1,2,3,4,5,6,7,8];
     //filter method using arrays in JS. :=
