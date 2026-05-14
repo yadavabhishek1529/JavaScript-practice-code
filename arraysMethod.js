@@ -15,14 +15,16 @@ let junkFoods = ["burger","petties","sandwich"];
 let foods = veggies.concat(fruits,junkFoods);
 console.log(foods);    */
 
-   //unshift() method in jS :=
+/*foodItems.shift();  //Deleting the value from the starting of array.
+console.log(foodItems); */
+
+
+//unshift() method in jS :=
 // let foodItems = ["Burger","petties","momos","sandwich"];
 
 /*foodItems.unshift("petties"); //add value in the starting of array.
 console.log(foodItems);*/
 
-/*foodItems.shift();  //Deleting the value from the starting of array.
-console.log(foodItems); */
 
 /* let result = foodItems.slice(1,4);
 console.log(result);*/
