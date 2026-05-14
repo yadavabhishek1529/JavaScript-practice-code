@@ -4,6 +4,12 @@
     console.log("you will definitely get a job my brother. Don't worry!!");
 }
 myFunction(); */
+/*function sum(a,b){
+    return a+b;
+}
+
+let res = sum(1,2)
+console.log(res)*/
 
 /*function myFunction(x,y){
     s = x+y;
@@ -101,3 +107,4 @@ x.forEach((i) => {
     console.log("Hii");
 })
 */
+
