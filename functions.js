@@ -145,3 +145,10 @@ x.forEach((i) => {
 })
 */
 
+/* let arr = [5, 8, 14, 2, 6]
+
+const output = arr.reduce((prev, curr) => {
+    return prev > curr ? prev : curr;
+})
+
+console.log(output); */
