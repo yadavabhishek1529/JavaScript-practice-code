@@ -20,6 +20,12 @@ console.log(val);
 let para = document.querySelector("p");
 console.log(para.getAttribute("id"));
 */
+/*
+let para = document.querySelector("p");
+
+let val = para.setAttribute("fact", "abhi");
+console.log(val);
+*/
 
     // Practice Q.
 /*let h2 = document.querySelector("h2");
@@ -99,3 +105,9 @@ content.classList.add("newClass");
  // content.classList.remove("newClass");
 */
 
+let div= document.querySelector("div");
+
+div.style.backgroundColor = "lightgreen";
+div.innerText = "Hello Abhi!";
+
+div.style.fontSize = "15px";

@@ -11,7 +11,7 @@
 .newClass {
     background-color: green;
 } */
-
+/*
 .dark {
     background-color: black;
     color : white;
@@ -19,4 +19,14 @@
 .light {
     background-color: white;
     color: black;
+}
+*/
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
 }
