@@ -118,6 +118,15 @@ const output = arr.reduce((res, curr) => {
 });
 console.log(output);  */
 
+
+/* let arr = [5, 8, 14, 2, 6]
+
+const output = arr.reduce((prev, curr) => {
+    return prev > curr ? prev : curr;
+})
+
+console.log(output); */
+
    //Practice Q:=
 /* let n= prompt("Enter the value of n ");
 let arr = [];
@@ -144,11 +153,3 @@ x.forEach((i) => {
     console.log("Hii");
 })
 */
-
-/* let arr = [5, 8, 14, 2, 6]
-
-const output = arr.reduce((prev, curr) => {
-    return prev > curr ? prev : curr;
-})
-
-console.log(output); */
