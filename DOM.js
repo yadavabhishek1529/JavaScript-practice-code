@@ -68,7 +68,6 @@ document.querySelector("body").prepend(newHeading);
 let para = document.querySelector("p");
 para.remove();   */
 
-
     //Practice Q.
 /* let newBtn = document.createElement("button");
 newBtn.innerText = "click me!";
