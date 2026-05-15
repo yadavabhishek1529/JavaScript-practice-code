@@ -10,6 +10,16 @@ console.log(className);
 let tagName = document.getElementsByTagName("button");
 console.log(tagName);
 */
+/*
+let div = document.querySelector("div");
+console.log(div);
+
+let val = div.getAttribute("id");
+console.log(val);
+
+let para = document.querySelector("p");
+console.log(para.getAttribute("id"));
+*/
 
     // Practice Q.
 /*let h2 = document.querySelector("h2");
@@ -88,3 +98,4 @@ content.classList.add("newClass");
  // for removing :=
  // content.classList.remove("newClass");
 */
+
