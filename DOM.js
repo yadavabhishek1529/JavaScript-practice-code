@@ -108,6 +108,5 @@ content.classList.add("newClass");
 let div= document.querySelector("div");
 
 div.style.backgroundColor = "lightgreen";
-div.innerText = "Hello Abhi!";
-
+div.innerText = "Hello Abhi!";                         
 div.style.fontSize = "15px";
