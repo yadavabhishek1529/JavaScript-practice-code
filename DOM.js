@@ -107,8 +107,7 @@ document.querySelector("body").prepend(newHeading);
 let para = document.querySelector("p");
 para.remove();   */
 
-/*
-let para = document.querySelector("p");
+/* let para = document.querySelector("p");
 
 para.remove() */
 
