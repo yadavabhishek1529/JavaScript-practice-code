@@ -84,6 +84,13 @@ div.style.backgroundColor = "lightgreen";
 div.innerText = "Hello Abhi!";                         
 div.style.fontSize = "15px";
 */
+/*
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click me";
+
+let p = document.querySelector("p");
+p.after(newBtn);
+*/
 
 /*
 let newHeading = document.createElement("h1");
@@ -113,4 +120,3 @@ content.classList.add("newClass");
  // for removing :=
  // content.classList.remove("newClass");
 */
-
