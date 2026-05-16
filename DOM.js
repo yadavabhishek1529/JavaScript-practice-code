@@ -107,6 +107,20 @@ document.querySelector("body").prepend(newHeading);
 let para = document.querySelector("p");
 para.remove();   */
 
+/*
+let para = document.querySelector("p");
+
+para.remove() */
+
+/*
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click me";
+newBtn.style.backgroundColor = "red";
+newBtn.style.color = "white";
+
+document.querySelector("body").prepend(newBtn);
+*/
+
     //Practice Q.
 /* let newBtn = document.createElement("button");
 newBtn.innerText = "click me!";
