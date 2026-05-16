@@ -76,6 +76,15 @@ console.log(newBtn);
 
 let div = document.querySelector("div");
 div.append(newBtn);  */
+
+/*
+let div= document.querySelector("div");
+
+div.style.backgroundColor = "lightgreen";
+div.innerText = "Hello Abhi!";                         
+div.style.fontSize = "15px";
+*/
+
 /*
 let newHeading = document.createElement("h1");
 newHeading.innerHTML = "<i>Hii, I am new!</i>";
@@ -105,8 +114,3 @@ content.classList.add("newClass");
  // content.classList.remove("newClass");
 */
 
-let div= document.querySelector("div");
-
-div.style.backgroundColor = "lightgreen";
-div.innerText = "Hello Abhi!";                         
-div.style.fontSize = "15px";
