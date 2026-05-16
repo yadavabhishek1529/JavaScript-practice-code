@@ -94,6 +94,13 @@ p.after(newBtn);
 
 /*
 let newHeading = document.createElement("h1");
+newHeading.innerHTML = "<i>Hii, my name is Abhishek yadav</i>"
+
+document.querySelector("body").prepend(newHeading);
+*/
+
+/*
+let newHeading = document.createElement("h1");
 newHeading.innerHTML = "<i>Hii, I am new!</i>";
 document.querySelector("body").prepend(newHeading);
 
