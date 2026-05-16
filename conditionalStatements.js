@@ -126,4 +126,3 @@ else if(marks<=49 && marks>=0){
     else{
         console.log("You entered a wrong number");
     } */
-
