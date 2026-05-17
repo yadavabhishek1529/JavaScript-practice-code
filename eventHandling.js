@@ -28,6 +28,13 @@ btn.addEventListener("dblclick", () => {
     console.log(evt.target);
 })*/
 
+/*
+let btn = document.querySelector("#btn");
+
+btn.onclick = () =>{
+    console.log("button is clicked");
+} */
+
     //Example of remove event listeners.
 /* let btn = document.querySelector("button");
 btn.addEventListener("dblclick", () => {
@@ -79,10 +86,3 @@ modeBtn.addEventListener("click", () => {
     }
     console.log(currMode);
 });  */
-
-/*
-let btn = document.querySelector("#btn");
-
-btn.onclick = () =>{
-    console.log("button is clicked");
-} */
