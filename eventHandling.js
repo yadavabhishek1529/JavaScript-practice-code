@@ -79,3 +79,9 @@ modeBtn.addEventListener("click", () => {
     }
     console.log(currMode);
 });  */
+/*
+let btn = document.querySelector("#btn");
+
+btn.onclick = () =>{
+    console.log("button is clicked");
+} */
