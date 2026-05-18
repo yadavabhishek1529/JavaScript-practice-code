@@ -153,3 +153,28 @@ console.log("a+b =",a+b);
 console.log("a+b =",a+b);
 console.log("a+b =",a+b);    
 */
+
+const student = {
+    name : "Abhishek yadav",
+    age : 20,
+    marks : 87.4,
+    printMarks : function () {
+        console.log("marks =", this.marks);
+    }
+}
+
+const abhiYadav = {
+    salary : 30000,
+};
+
+const abhiYadav2 = {
+    salary : 25000,
+}
+
+const abhiYadav3 = {
+    salary : 40000
+}
+
+abhiYadav.__proto__ = student;
+abhiYadav2.__proto__ = student;
+abhiYadav3.__proto__ = student;
