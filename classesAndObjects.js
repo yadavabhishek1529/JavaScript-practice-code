@@ -18,6 +18,7 @@ const karanArjun1 = {
 karanArjun.__proto__ = employee;
 karanArjun1.__proto__ = employee;  */
 /*
+
 class toyotaCar{
     constructor(brand, mileage){
         console.log("creating new object");
@@ -108,6 +109,7 @@ let newUser1 = new user("abhishek","abhishek.23bcan0418jecrcu.edu.in");
 let newUser2 = new user("abhinav","abhinav.23bcan0682@jecrcu.edu.in");
 console.log(newUser1.viewData());
 */
+
     //practice Q part-2 :
 /* let data = "secret information";
 class user{
