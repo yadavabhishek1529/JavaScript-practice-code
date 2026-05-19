@@ -93,6 +93,26 @@ let lexus = new ToyotaCar("lexus", 10);
 // lexus.setBrand("lexus");
 console.log(lexus)
 */
+/*
+class person {
+    eat() {
+        console.log("eat")
+    }
+
+    play() {
+        console.log("play")
+    }
+}
+
+class Engineer extends person {
+    work() {
+        console.log("Solve problems and build something.")
+    }
+}
+
+let abhishekObj = new Engineer;
+console.log(abhishekObj.eat())
+*/
 
 /* class parent {
     hello() {
@@ -139,6 +159,36 @@ let abhiObj1 = new Doctor();
 // let enggObj = new Engineer("Abhishek");
 */
 
+/*
+class person {
+    constructor() {
+        console.log("enter in parent class")
+        this.species = "homo sapiens";
+    }
+    eat() {
+        console.log("eat")
+    }
+
+    play() {
+        console.log("play")
+    }
+}
+
+class Engineer extends person {
+    constructor(branch) {
+        console.log("enter child constructor");
+        super() //it invoke parent class constructor
+        this.branch = branch;
+        console.log("exit child constructor");
+    }
+    work() {
+        console.log("Solve problems and build something.")
+    }
+}
+
+let abhishekObj = new Engineer("Software engineer");
+// console.log(abhishekObj.eat())
+*/
     //Practice Q.
 /*
 let data = "secret information";
@@ -202,3 +252,31 @@ console.log("a+b =",a+b);
 console.log("a+b =",a+b);    
 */
 
+class person {
+    constructor() {
+        console.log("enter in parent class")
+        this.species = "homo sapiens";
+    }
+    eat() {
+        console.log("eat")
+    }
+
+    play() {
+        console.log("play")
+    }
+}
+
+class Engineer extends person {
+    constructor(branch) {
+        console.log("enter child constructor");
+        super() //it invoke parent class constructor
+        this.branch = branch;
+        console.log("exit child constructor");
+    }
+    work() {
+        console.log("Solve problems and build something.")
+    }
+}
+
+let abhishekObj = new Engineer("Software engineer");
+// console.log(abhishekObj.eat())
