@@ -189,6 +189,35 @@ class Engineer extends person {
 let abhishekObj = new Engineer("Software engineer");
 // console.log(abhishekObj.eat())
 */
+/*
+class person {
+    constructor(name) {
+        this.species = "homo sapiens";
+        this.name = name;
+    }
+    eat() {
+        console.log("eat")
+    }
+
+    play() {
+        console.log("play")
+    }
+}
+
+class Engineer extends person {
+    constructor(name) {
+        super(name) //it invoke parent class constructor
+    }
+    work() {
+        super.eat();
+        console.log("Solve problems and build something.")
+    }
+}
+
+let abhishekObj = new Engineer("Abhishek Yadav");
+// console.log(abhishekObj.eat())
+*/
+
     //Practice Q.
 /*
 let data = "secret information";
@@ -252,31 +281,3 @@ console.log("a+b =",a+b);
 console.log("a+b =",a+b);    
 */
 
-class person {
-    constructor() {
-        console.log("enter in parent class")
-        this.species = "homo sapiens";
-    }
-    eat() {
-        console.log("eat")
-    }
-
-    play() {
-        console.log("play")
-    }
-}
-
-class Engineer extends person {
-    constructor(branch) {
-        console.log("enter child constructor");
-        super() //it invoke parent class constructor
-        this.branch = branch;
-        console.log("exit child constructor");
-    }
-    work() {
-        console.log("Solve problems and build something.")
-    }
-}
-
-let abhishekObj = new Engineer("Software engineer");
-// console.log(abhishekObj.eat())
