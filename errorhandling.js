@@ -1,0 +1,22 @@
+//try-catch method for error handling.
+/* let a = 10;
+let b = 5;
+
+console.log("a =",a);
+console.log("b =",b);
+console.log("a+b =",a+b);
+console.log("a-b =",a-b);
+try{
+console.log("a+c =",a+c);
+}
+catch(err){
+    console.log(err);
+}
+console.log("a*b =",a*b);
+console.log("a/b =",a/b);
+console.log("a+b =",a+b);
+console.log("a-b =",a-b);
+console.log("a+b =",a+b);
+console.log("a+b =",a+b);
+console.log("a+b =",a+b);    
+*/
