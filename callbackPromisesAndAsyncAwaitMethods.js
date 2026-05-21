@@ -198,7 +198,7 @@ getAllData();
 */
 
 // REVISE ALL THE METHODS 
-function sum(a,b){
+/* function sum(a,b){
     console.log(a+b);
 }
 
@@ -206,4 +206,16 @@ function calculator(a,b, sumCallback){
     sumCallback(a,b);
 }
 
-calculator(4, 8, sum);
+calculator(4, 8, sum); */
+
+function getData(dataId,getNextData) {
+    setTimeout(()=> {
+        console.log("data", dataId);
+        if(getNextData){
+            getNextData();
+        }
+    },2000);
+}
+getData(1, () =>{
+    getData(2)
+});
