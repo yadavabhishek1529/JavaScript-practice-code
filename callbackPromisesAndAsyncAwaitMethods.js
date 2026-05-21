@@ -196,3 +196,14 @@ getAllData();
     await getData(5);
 })();
 */
+
+// REVISE ALL THE METHODS 
+function sum(a,b){
+    console.log(a+b);
+}
+
+function calculator(a,b, sumCallback){
+    sumCallback(a,b);
+}
+
+calculator(4, 8, sum);
