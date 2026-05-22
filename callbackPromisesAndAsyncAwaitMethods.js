@@ -207,7 +207,7 @@ function calculator(a,b, sumCallback){
 }
 
 calculator(4, 8, sum); */
-
+/*
 function getData(dataId,getNextData) {
     setTimeout(()=> {
         console.log("data", dataId);
@@ -223,3 +223,21 @@ getData(1, () =>{
         });
     });
 });
+*/
+
+const getPromise = () =>{
+    return new Promise((resolve,reject)=>{
+        console.log("it is a promise");
+        // resolve("success");
+        reject("network error");
+    });
+};
+
+let promise = getPromise();
+promise.then((res)=>{
+    console.log("promise fulfilled",res);
+})
+
+promise.catch((err)=>{
+    console.log("promise rejected",err);
+})
