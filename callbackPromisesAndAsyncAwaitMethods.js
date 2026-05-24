@@ -241,7 +241,7 @@ promise.then((res)=>{
 promise.catch((err)=>{
     console.log("promise rejected",err);
 }) */
-
+/*
 const getPromise = () =>{
     return new Promise((resolve,reject)=>{
         console.log("it is a promise");
@@ -258,3 +258,28 @@ promise.then((res)=>{
 promise.catch((err)=>{
     console.log("promise rejected",err);
 })
+    */
+
+function asyncFunc1() {
+    return new Promise((resolve, reject) => {
+        setTimeout (() =>{
+            console.log("data1");
+            resolve("success");
+        }, 4000);
+    });
+}
+
+function asyncFunc2() {
+    return new Promise((resolve, reject) => {
+        setTimeout (() => {
+            console.log("data2");
+            resolve("success");
+        }, 4000);
+    });
+}
+
+console.log("fetching data 1....");
+asyncFunc1().then((res)=>{
+    console.log("fetching data 2....");
+    asyncFunc2().then((res)=>{});
+});
