@@ -259,7 +259,7 @@ promise.catch((err)=>{
     console.log("promise rejected",err);
 })
     */
-
+/*
 function asyncFunc1() {
     return new Promise((resolve, reject) => {
         setTimeout (() =>{
@@ -283,3 +283,4 @@ asyncFunc1().then((res)=>{
     console.log("fetching data 2....");
     asyncFunc2().then((res)=>{});
 });
+*/
