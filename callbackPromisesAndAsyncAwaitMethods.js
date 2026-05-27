@@ -259,6 +259,7 @@ promise.catch((err)=>{
     console.log("promise rejected",err);
 })
     */
+   
 /*
 function asyncFunc1() {
     return new Promise((resolve, reject) => {
