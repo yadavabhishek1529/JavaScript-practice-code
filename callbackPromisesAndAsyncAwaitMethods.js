@@ -259,7 +259,7 @@ promise.catch((err)=>{
     console.log("promise rejected",err);
 })
     */
-   
+
 /*
 function asyncFunc1() {
     return new Promise((resolve, reject) => {
@@ -279,7 +279,7 @@ function asyncFunc2() {
     });
 }
 
-console.log("fetching data 1....");
+console.log("fetching data 1....");      //.then() runs only AFTER the Promise is resolved. So after asyncFunc1() finishes, this code runs.
 asyncFunc1().then((res)=>{
     console.log("fetching data 2....");
     asyncFunc2().then((res)=>{});
