@@ -14,3 +14,14 @@ const getFacts = async () =>{
 
 getBtn.addEventListener("click",getFacts);
 */
+
+const URL = "https://api.thecatapi.com/v1/images/search";
+
+const getFacts = async () =>{
+    console.log("getting data.....");
+    let response = await fetch(URL);
+    console.log(response);
+    let data = await response.json();
+    console.log(data);
+}
+getFacts();
