@@ -15,7 +15,7 @@ const getFacts = async () =>{
 getBtn.addEventListener("click",getFacts);
 */
 
-const URL = "https://api.thecatapi.com/v1/images/search";
+/* const URL = "https://api.thecatapi.com/v1/images/search";
 
 const getFacts = async () =>{
     console.log("getting data.....");
@@ -25,3 +25,4 @@ const getFacts = async () =>{
     console.log(data);
 }
 getFacts();
+*/
