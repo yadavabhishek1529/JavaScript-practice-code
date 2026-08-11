@@ -126,3 +126,24 @@ else if(marks<=49 && marks>=0){
     else{
         console.log("You entered a wrong number");
     } */
+
+
+let marks = 34;
+let grade;
+
+if(marks<=100  && marks>=90){
+    grade = "A"
+}
+else if(marks<=89 && marks>=75){
+    grade = "B"
+}
+else if(marks<=74 && marks>=60){
+    grade = "C"
+}
+else if(marks<=59 && marks>=40){
+    grade = "D"
+}
+else if(marks<=39 && marks>=0){
+    grade = "Fail"
+}
+console.log(grade);

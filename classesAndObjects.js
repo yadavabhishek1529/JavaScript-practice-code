@@ -257,3 +257,30 @@ class admin extends user{
     }
 }
 let admin1 = new admin("admin","admin@college.edu.in"); */
+
+
+let data = "Secret information";
+class user{
+    constructor(name,email){
+        this.name = name;
+        this.email = email;
+    }
+
+    viewData(){
+        console.log("Data =",data);
+    }
+}
+
+class admin extends user{
+    constructor(name, email){
+        super(name,email);
+    }
+    editData(){
+        data = "new Data";
+    }
+}
+
+let abhiObj = new user("Abhishek","yadavabhishek1529@gmail.com");
+
+let anmolObj = new user("Anmol","Anmolshekhawat@gmail.com");
+let admin1 = new admin("Dean", "dean@jecrcu.edu.in");
